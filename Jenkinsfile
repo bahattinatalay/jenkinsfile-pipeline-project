@@ -21,16 +21,16 @@ pipeline {
                 sh 'python pipeline.py'
             }
         }
-        stage('Stage-5') {
+        stage('Stage-4') {
             steps {
-                echo 'Clarusway_Way to Reinvent Yourself'
+                echo 'Clarusway_Way to Reinvent Yourself-4'
                 sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
             }
         }
 
-        stage('Stage-6') {
+        stage('Stage-5') {
             steps {
-                echo 'Clarusway_Way to Reinvent Yourself'
+                echo 'Clarusway_Way to Reinvent Yourself-5'
                 sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
             }
         }
