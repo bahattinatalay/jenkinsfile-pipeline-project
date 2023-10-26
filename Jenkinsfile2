@@ -20,6 +20,7 @@ pipeline {
                 sh 'python --version'
                 sh 'python pipe.py'
         }
+        }
          stage('stage-5'){
             steps{
                 echo 'Clarusway_Way to Reinvent Yourself'
@@ -28,5 +29,4 @@ pipeline {
         }
     }
     }
-}
 }
